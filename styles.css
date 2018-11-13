@@ -1,8 +1,12 @@
 /*
 To do list for initial website CSS submission:
   -add nicer fonts
+  -pick a font size
   -background colors
   -better spacing of images (especially seal logos at top)
+  -change color of visited links
+  -make prettier buttons
+  -edit new pages
   -IMPORTANT: make sure display works on phone, tablet, and desktop (Greg is doing this)
 
   -links to other pages maybe and therefore creation of new pages
@@ -11,6 +15,55 @@ To do list for initial website CSS submission:
     -list elements used, why certain classes were used, future JS implementations, team contributions
 */
 
-body{
-font-family: Impact;
+body {
+	font-family: Impact;
+	color: white;
+	background-color: black;
+}
+
+#topRightLogo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 10%;
+    height: auto;
+    width: auto;
+}
+
+#topLeftLogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 10%;
+    height: auto;
+    width: auto;
+}
+
+#fullBrowserWidthImg {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.titular {
+	font-size: 600%;
+	text-align: center;
+}
+
+.row {
+	border: 1px solid black;
+	display: flex;
+}
+
+.linkCell {
+	border: 1px solid black;
+	border-top: 0px;
+	border-bottom: 0px;
+	text-align: center;
+	vertical-align: text-top;
+	flex-basis: 100%;
+	font-size: 150%;
+	color: white;
 }
