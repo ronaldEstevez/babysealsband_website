@@ -17,7 +17,7 @@ To do list for initial website CSS submission:
 */
 
 body {
-	font-family: Impact;
+	font-family: Impact, Lucida, Arial;
 	color: white;
 	background-color: black;
 }
