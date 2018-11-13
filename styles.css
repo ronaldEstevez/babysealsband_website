@@ -10,3 +10,7 @@ To do list for initial website CSS submission:
   -fill out report document
     -list elements used, why certain classes were used, future JS implementations, team contributions
 */
+
+body{
+font-family: Impact;
+}
