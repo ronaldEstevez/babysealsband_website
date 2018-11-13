@@ -8,6 +8,7 @@ To do list for initial website CSS submission:
   -make prettier buttons
   -edit new pages
   -IMPORTANT: make sure display works on phone, tablet, and desktop (Greg is doing this)
+		-probably shouldn't specify sizes in pixels then
 
   -links to other pages maybe and therefore creation of new pages
 
@@ -66,4 +67,11 @@ body {
 	flex-basis: 100%;
 	font-size: 150%;
 	color: white;
+	background-color: grey;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
