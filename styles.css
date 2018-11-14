@@ -17,7 +17,7 @@ To do list for initial website CSS submission:
 */
 
 body {
-	font-family: Impact;
+	font-family: Impact, Lucida, Arial;
 	color: white;
 	background-color: black;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 #imageWide{
-    max-width: 50%
+    max-width: 100%
     height: auto;
     width: auto;
 }
@@ -141,14 +141,22 @@ a {
     }
 
     #imageWide{
-        height: ;
-        width: auto;
+	max-width: 100%;
+        height: auto;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 450px) and (max-width: 1024px){
-    h1{ font-size: 150%; }
-    h3{ font-size: 125%; }
+    .centeredText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 100%;
+        color: crimson;
+    }
+    
     .titular {
 	font-size: 400%;
 	text-align: center;
@@ -160,3 +168,21 @@ a {
     }
     p{ font-size: 125% }
 }
+=======
+#aboutPic {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+>>>>>>> 40900297feeca50c96084a67e091b0a65baac157
