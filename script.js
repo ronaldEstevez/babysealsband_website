@@ -6,7 +6,7 @@ To do list for JavaScript additions:
 */
 
 // function changing text-shadow of title
-var inst = setInterval(changeShadow, 1000);
+var inst = setInterval(changeShadow, 750);
 
 var counter = 0;
 
