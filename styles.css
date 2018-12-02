@@ -75,10 +75,8 @@ body {
 	border-top: 0px;
 	border-bottom: 0px;
 	text-align: center;
-	vertical-align: text-top;
 	flex-basis: 100%;
 	font-size: 150%;
-	color: white;
 	background-color: DarkGrey;
 	padding: 0px;
 }
