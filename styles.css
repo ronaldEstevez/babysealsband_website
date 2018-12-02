@@ -48,11 +48,22 @@ body {
   margin: 0px;
 }
 
-.titular {
+#titular {
 	font-size: 600%;
 	text-align: center;
 }
 
+.orangeShadow {
+	text-shadow: 5px 5px 30px #ffa500;
+}
+
+.magentaShadow {
+	text-shadow: 5px 5px 30px #ff00ff;
+}
+
+.cyanShadow {
+	text-shadow: 5px 5px 30px #00FFFF;
+}
 .row {
 	border: 1px solid black;
 	display: flex;
