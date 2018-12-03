@@ -3,75 +3,61 @@ body {
 	color: white;
 	background-color: black;
 }
-
 #topRightLogo {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    max-width: 10%;
-    height: auto;
-    width: auto;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	max-width: 10%;
+	height: auto;
+	width: auto;
 }
-
 .rotate {
 	transform: rotate(15deg);
 }
-
 .rotateLeft {
 	transform: rotate(-30deg);
 }
-
-.rotateRight{
+.rotateRight {
 	transform: rotate(30deg);
 }
-
 .rotate1 {
 	transform: rotate(-15deg);
 }
-
 #topLeftLogo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    max-width: 10%;
-    height: auto;
-    width: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	max-width: 10%;
+	height: auto;
+	width: auto;
 }
-
 #fullBrowserWidthImg {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    padding: 0px;
-    margin: 0px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	padding: 0px;
+	margin: 0px;
 }
-
-#image1{
-    max-width: 25%;
-    height: auto;
-    width: auto;
+#image1 {
+	max-width: 25%;
+	height: auto;
+	width: auto;
 }
-
-#imageWide{
-    max-width: 100%
-    height: auto;
-    width: auto;
+#imageWide {
+	max-width: 100% height: auto;
+	width: auto;
 }
-
 #titular {
 	font-size: 800%;
 	text-align: center;
 	margin: 0px;
 }
-
 .orangeShadow {
 	text-shadow: 5px 5px 30px #ffa500;
 }
-
 .magentaShadow {
 	text-shadow: 5px 5px 30px #ff00ff;
 }
-
 .cyanShadow {
 	text-shadow: 5px 5px 30px #00FFFF;
 }
@@ -79,7 +65,6 @@ body {
 	border: 1px solid black;
 	display: flex;
 }
-
 .linkCell {
 	border: 1px solid black;
 	border-top: 0px;
@@ -90,174 +75,160 @@ body {
 	background-color: DarkGrey;
 	padding: 0px;
 }
-
 .linkCell:hover {
 	background-color: #ccc;
 }
-
 a {
 	text-decoration: none;
 	color: inherit;
 }
-
 .imageContainer {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.centeredText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    color: crimson;
-}
-
-@media screen and (max-width: 450px){
-    h1{ font-size: 75%; }
-
-    h3{ font-size: 50%; }
-
-    .titular {
-	font-size: 300%;
+	position: relative;
 	text-align: center;
-    }
-
-    a {
-	text-decoration: none;
-	color: inherit;
-	font-size: 100%;
-    }
-
-    div{ font-size: 50%; }
-
-    .linkCell {
-	border: 1px solid black;
-	border-top: 0px;
-	border-bottom: 0px;
-	text-align: center;
-	vertical-align: text-top;
-	flex-basis: 100%;
-	font-size: 250%;
 	color: white;
-	background-color: DarkGrey;
-	padding: 0px;
-    }
-
-    #image1{
-        max-width: 100%;
-        height: auto;
-        width: auto;
-    }
-
-    #imageWide{
-	max-width: 100%;
-        height: auto;
-        width: 100%;
-    }
 }
-
-@media screen and (min-width: 450px) and (max-width: 1024px){
-    .centeredText {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 100%;
-        color: crimson;
-    }
-
-    .titular {
-	font-size: 400%;
-	text-align: center;
-    }
-    a {
-	text-decoration: none;
-	color: inherit;
-	font-size: 200%;
-    }
-    p{ font-size: 125% }
+.centeredText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: crimson;
 }
-=======
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 75%;
+	}
+	h3 {
+		font-size: 50%;
+	}
+	.titular {
+		font-size: 300%;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		font-size: 100%;
+	}
+	div {
+		font-size: 50%;
+	}
+	.linkCell {
+		border: 1px solid black;
+		border-top: 0px;
+		border-bottom: 0px;
+		text-align: center;
+		vertical-align: text-top;
+		flex-basis: 100%;
+		font-size: 250%;
+		color: white;
+		background-color: DarkGrey;
+		padding: 0px;
+	}
+	#image1 {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	#imageWide {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+	.centeredText {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 100%;
+		color: crimson;
+	}
+	.titular {
+		font-size: 400%;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		font-size: 200%;
+	}
+	p {
+		font-size: 125%
+	}
+}
 #aboutPic {
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
 }
-
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
 }
 .dropbtn {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
 }
-
-
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
 }
-
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
-
-.show{
-    display: block;
+.dropdown-content a:hover {
+	background-color: #ccc;
 }
-
+.show {
+	display: block;
+}
 #musicPreview {
-	width:300px;
-	height:380px;
-	border:0;
+	width: 300px;
+	height: 380px;
+	border: 0;
 }
-
 #followOnSpotify {
-	width:215px;
-	height:56x;
-	border:0;
+	width: 215px;
+	height: 56x;
+	border: 0;
 	overflow: hidden;
 }
-
 .form {
-    background: #0c3e5f;
-    color: white;
-    border-radius: 0;
-    border: 15px solid white;
-    height: 8%;
-    width: 50%;
+	background: #0c3e5f;
+	color: white;
+	border-radius: 0;
+	border: 15px solid white;
+	height: 8%;
+	width: 50%;
 }
-
 .form .button {
-    margin-bottom: 0;
-    border-radius: 0 0 0 0;
+	margin-bottom: 0;
+	border-radius: 0 0 0 0;
 }

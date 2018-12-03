@@ -1,10 +1,3 @@
-/*
-To do list for JavaScript additions:
-  - ???
-*/
-
-
-
 // function changing text-shadow of title
 var inst = setInterval(changeShadow, 750);
 
@@ -17,9 +10,11 @@ function changeShadow() {
   elem.className = shadowClasses[counter];
   counter++;
   if (counter >= shadowClasses.length) {
-    counter = 0;}
+    counter = 0;
+  }
 }
 
+// function making seals "dance"
 var instR1 = setInterval(rotation1, 750);
 var instR2 = setInterval(rotation2, 750);
 
@@ -32,7 +27,8 @@ function rotation1() {
   elem.className = rotClasses[counter];
   counterR++;
   if (counterR >= rotClasses.length) {
-    counterR = 1;}
+    counterR = 1;
+  }
 }
 
 function rotation2() {
@@ -42,5 +38,6 @@ function rotation2() {
   elem.className = rotClasses[counter];
   counterR++;
   if (counterR >= rotClasses.length) {
-    counterR = 1;}
+    counterR = 1;
+  }
 }
