@@ -1,21 +1,3 @@
-/*
-To do list for initial website CSS submission:
-  -add nicer fonts
-  -pick a font size
-  -background colors
-  -better spacing of images (especially seal logos at top)
-  -change color of visited links
-  -make prettier buttons
-  -edit new pages
-  -IMPORTANT: make sure display works on phone, tablet, and desktop (Greg is doing this)
-		-probably shouldn't specify sizes in pixels then
-
-  -links to other pages maybe and therefore creation of new pages
-
-  -fill out report document
-    -list elements used, why certain classes were used, future JS implementations, team contributions
-*/
-
 body {
 	font-family: Ranga, cursive, Impact, Lucida, Arial;
 	color: white;
@@ -116,4 +98,20 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+#musicPreview {
+	width:300px;
+	height:380px;
+	border:0;
+	allowtransparency: true;
+	allow: encrypted-media;
+}
+
+#followOnSpotify {
+	width:300px;
+	height:56x;
+	border:0;
+	overflow: hidden;
+	allowtransparency: true;
 }
