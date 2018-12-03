@@ -44,5 +44,3 @@ function rotation2() {
   if (counterR >= rotClasses.length) {
     counterR = 1;}
 }
-
-    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
