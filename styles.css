@@ -104,8 +104,6 @@ a {
 	width:300px;
 	height:380px;
 	border:0;
-	allowtransparency: true;
-	allow: encrypted-media;
 }
 
 #followOnSpotify {
@@ -113,5 +111,4 @@ a {
 	height:56x;
 	border:0;
 	overflow: hidden;
-	allowtransparency: true;
 }
