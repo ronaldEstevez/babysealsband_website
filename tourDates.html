@@ -2,15 +2,16 @@
 <html>
     <center>
 
+
     <!--Main header-->
     <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
         <script src="jquery.js"></script>
 	      <script src="script.js"></script>
         <title>Baby Seals Band - Tour Dates</title>
         <link rel="shortcut icon" href="images/logobabyseals.ico" type="image/x-icon">
+        
     </head>
 
     <body>
@@ -20,7 +21,7 @@
 
         <!--Band Logo-->
         <img alt="Baby Seals Band Logo" id="topLeftLogo" src="images/logoBabySeals.png">
-
+        
         <div class="row">
             <!--Home Page-->
             <a class="linkCell" href="index.html">HOME</a>
@@ -39,28 +40,41 @@
         <h1>Tickets and Shows</h1>
         <h3>Come see us!</h3>
         <br>
+        
+        
+        <div class="button">
+            <button onclick="myFunction()" class="dropbtn"> Dates </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="tickets.html"> Dec. 15th @ Madison Square Garden, NY </a>
+                <a href="tickets.html"> Dec. 16th @ Barclays Center, NY </a>
+                <a href="tickets.html"> Dec. 17th @ Northwell Health at Jones Beach Theater, NY </a>
+                <a href="tickets.html"> Dec. 18th @ Radio City Music Hall, NY </a>
+                <a href="tickets.htmlh"> Dec. 19th @ Prudential Center, NJ </a>
+            </div>
+        </div>
+        
+        <script>
+            function myFunction(){
+                document.getElementById("myDropdown").classList.toggle("show");
 
-        <!--Ticket sale section-->
-        <p>
-            Dec. 15th @ Madison Square Garden, NY<br>
-            <button class="button" onclick="location.href='tickets.html'">Buy Tickets</button><br>
-            <br>
+                window.onclick = function(event) {
+                    if(!event.target.matches('.dropbtn')){
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for(i=0;i<dropdowns.length;i++){
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')){
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            }
+            
 
-            Dec. 16th @ Barclays Center, NY<br>
-            <button class="button" onclick="location.href='tickets.html';">Buy Tickets</button><br>
-            <br>
+        </script>
 
-            Dec. 17th @ Northwell Health at Jones Beach Theater, NY<br>
-            <button class="button" onclick="location.href='tickets.html';">Buy Tickets</button><br>
-            <br>
-
-            Dec. 18th @ Radio City Music Hall, NY<br>
-            <button class="button" onclick="location.href='tickets.html';">Buy Tickets</button><br>
-            <br>
-
-            Dec. 19th @ Prudential Center, NJ<br>
-            <button class="button" onclick="location.href='tickets.html';">Buy Tickets</button>
-        </p>
+        
     </body>
 
     </center>
