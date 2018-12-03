@@ -1,23 +1,5 @@
-/*
-To do list for initial website CSS submission:
-  -add nicer fonts
-  -pick a font size
-  -background colors
-  -better spacing of images (especially seal logos at top)
-  -change color of visited links
-  -make prettier buttons
-  -edit new pages
-  -IMPORTANT: make sure display works on phone, tablet, and desktop (Greg is doing this)
-		-probably shouldn't specify sizes in pixels then
-
-  -links to other pages maybe and therefore creation of new pages
-
-  -fill out report document
-    -list elements used, why certain classes were used, future JS implementations, team contributions
-*/
-
 body {
-	font-family: Impact, Lucida, Arial;
+	font-family: Ranga, cursive, Impact, Lucida, Arial;
 	color: white;
 	background-color: black;
 }
@@ -60,11 +42,23 @@ body {
     width: auto;
 }
 
-.titular {
-	font-size: 600%;
+#titular {
+	font-size: 800%;
 	text-align: center;
+	margin: 0px;
 }
 
+.orangeShadow {
+	text-shadow: 5px 5px 30px #ffa500;
+}
+
+.magentaShadow {
+	text-shadow: 5px 5px 30px #ff00ff;
+}
+
+.cyanShadow {
+	text-shadow: 5px 5px 30px #00FFFF;
+}
 .row {
 	border: 1px solid black;
 	display: flex;
@@ -75,10 +69,8 @@ body {
 	border-top: 0px;
 	border-bottom: 0px;
 	text-align: center;
-	vertical-align: text-top;
 	flex-basis: 100%;
 	font-size: 150%;
-	color: white;
 	background-color: DarkGrey;
 	padding: 0px;
 }
@@ -185,4 +177,23 @@ a {
     display: inline-block;
     font-size: 16px;
 }
+<<<<<<< HEAD
 >>>>>>> 40900297feeca50c96084a67e091b0a65baac157
+=======
+
+#musicPreview {
+	width:300px;
+	height:380px;
+	border:0;
+	allowtransparency: true;
+	allow: encrypted-media;
+}
+
+#followOnSpotify {
+	width:300px;
+	height:56x;
+	border:0;
+	overflow: hidden;
+	allowtransparency: true;
+}
+>>>>>>> fb7318eeba5e3b6687b9f579cfdae0014f9d59bf
