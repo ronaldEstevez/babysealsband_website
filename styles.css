@@ -13,6 +13,22 @@ body {
     width: auto;
 }
 
+.rotate {
+	transform: rotate(15deg);
+}
+
+.rotateLeft {
+	transform: rotate(-30deg);
+}
+
+.rotateRight{
+	transform: rotate(30deg);
+}
+
+.rotate1 {
+	transform: rotate(-15deg);
+}
+
 #topLeftLogo {
     position: absolute;
     top: 0px;
@@ -97,9 +113,9 @@ a {
 
 @media screen and (max-width: 450px){
     h1{ font-size: 75%; }
-    
+
     h3{ font-size: 50%; }
-    
+
     .titular {
 	font-size: 300%;
 	text-align: center;
@@ -110,9 +126,9 @@ a {
 	color: inherit;
 	font-size: 100%;
     }
-    
+
     div{ font-size: 50%; }
-    
+
     .linkCell {
 	border: 1px solid black;
 	border-top: 0px;
@@ -125,7 +141,7 @@ a {
 	background-color: DarkGrey;
 	padding: 0px;
     }
-    
+
     #image1{
         max-width: 100%;
         height: auto;
@@ -148,7 +164,7 @@ a {
         font-size: 100%;
         color: crimson;
     }
-    
+
     .titular {
 	font-size: 400%;
 	text-align: center;
@@ -177,9 +193,6 @@ a {
     display: inline-block;
     font-size: 16px;
 }
-<<<<<<< HEAD
->>>>>>> 40900297feeca50c96084a67e091b0a65baac157
-=======
 
 #musicPreview {
 	width:300px;
@@ -196,4 +209,3 @@ a {
 	overflow: hidden;
 	allowtransparency: true;
 }
->>>>>>> fb7318eeba5e3b6687b9f579cfdae0014f9d59bf
