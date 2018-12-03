@@ -112,3 +112,17 @@ a {
 	border:0;
 	overflow: hidden;
 }
+
+.form {
+    background: #0c3e5f;
+    color: white;
+    border-radius: 0;
+    border: 15px solid white;
+    height: 8%;
+    width: 50%;
+}
+
+.form .button {
+    margin-bottom: 0;
+    border-radius: 0 0 0 0;
+}
