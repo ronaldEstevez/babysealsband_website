@@ -108,6 +108,9 @@ a {
 	font-size: 16px;
 	cursor: pointer;
 }
+.button:hover{
+	text-shadow: 0 0 20px yellow;
+}
 .dropbtn {
 	background-color: #4CAF50;
 	/* Green */
@@ -120,11 +123,14 @@ a {
 	font-size: 16px;
 	cursor: pointer;
 }
+.dropbtn:hover{
+	text-shadow: 0 0 20px yellow;
+}
 .dropdown-content {
 	display: none;
-	position: absolute;
+	position: relative;
 	background-color: #f1f1f1;
-	min-width: 160px;
+	width: 40%;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
@@ -140,6 +146,9 @@ a {
 }
 .show {
 	display: block;
+}
+#aboutPic {
+	border: 5px solid white;
 }
 #musicPreview {
 	width: 300px;
@@ -229,7 +238,4 @@ a {
 	p {
 		font-size: 125%
 	}
-}
-#aboutPic {
-	border: 5px solid white;
 }

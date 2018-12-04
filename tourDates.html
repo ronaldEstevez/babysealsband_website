@@ -41,8 +41,8 @@
     <br>
 
 
-    <div class="button">
-      <button onclick="myFunction()" class="dropbtn"> Dates </button>
+    <div>
+      <button onclick="showDropDownMenu()" class="dropbtn"> Dates </button>
       <div id="myDropdown" class="dropdown-content">
         <a href="tickets.html"> Dec. 15th @ Madison Square Garden, NY </a>
         <a href="tickets.html"> Dec. 16th @ Barclays Center, NY </a>
@@ -51,25 +51,6 @@
         <a href="tickets.html"> Dec. 19th @ Prudential Center, NJ </a>
       </div>
     </div>
-
-    <script>
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-      }
-    </script>
 
 
   </body>

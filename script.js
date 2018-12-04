@@ -14,7 +14,7 @@ function changeShadow() {
   }
 }
 
-// function making seals "dance"
+// function makes seals "dance"
 var instR1 = setInterval(rotation1, 750);
 var instR2 = setInterval(rotation2, 750);
 
@@ -39,5 +39,23 @@ function rotation2() {
   counterR++;
   if (counterR >= rotClasses.length) {
     counterR = 1;
+  }
+}
+
+// drops drop down menu for tour dates
+function showDropDownMenu() {
+  document.getElementById("myDropdown").classList.toggle("show");
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
   }
 }
