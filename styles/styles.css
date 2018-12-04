@@ -39,11 +39,6 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
-#image1 {
-	max-width: 25%;
-	height: auto;
-	width: auto;
-}
 #imageWide {
 	max-width: 100% height: auto;
 	width: auto;
@@ -204,11 +199,6 @@ a {
 		color: white;
 		background-color: DarkGrey;
 		padding: 0px;
-	}
-	#image1 {
-		max-width: 100%;
-		height: auto;
-		width: auto;
 	}
 	#imageWide {
 		max-width: 100%;
