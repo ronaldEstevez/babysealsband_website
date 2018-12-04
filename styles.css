@@ -5,8 +5,8 @@ body {
 }
 #topRightLogo {
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: 1%;
+	right: 2%;
 	max-width: 10%;
 	height: auto;
 	width: auto;
@@ -25,8 +25,8 @@ body {
 }
 #topLeftLogo {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 1%;
+	left: 2%;
 	max-width: 10%;
 	height: auto;
 	width: auto;
@@ -76,7 +76,7 @@ body {
 	padding: 0px;
 }
 .linkCell:hover {
-	background-color: #ccc;
+	background-color: #ccc; /*a lighter grey*/
 }
 a {
 	text-decoration: none;
@@ -94,75 +94,6 @@ a {
 	transform: translate(-50%, -50%);
 	font-size: 40px;
 	color: crimson;
-}
-@media screen and (max-width: 450px) {
-	h1 {
-		font-size: 75%;
-	}
-	h3 {
-		font-size: 50%;
-	}
-	.titular {
-		font-size: 300%;
-		text-align: center;
-	}
-	a {
-		text-decoration: none;
-		color: inherit;
-		font-size: 100%;
-	}
-	div {
-		font-size: 50%;
-	}
-	.linkCell {
-		border: 1px solid black;
-		border-top: 0px;
-		border-bottom: 0px;
-		text-align: center;
-		vertical-align: text-top;
-		flex-basis: 100%;
-		font-size: 250%;
-		color: white;
-		background-color: DarkGrey;
-		padding: 0px;
-	}
-	#image1 {
-		max-width: 100%;
-		height: auto;
-		width: auto;
-	}
-	#imageWide {
-		max-width: 100%;
-		height: auto;
-		width: 100%;
-	}
-}
-@media screen and (min-width: 450px) and (max-width: 1024px) {
-	.centeredText {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 100%;
-		color: crimson;
-	}
-	.titular {
-		font-size: 400%;
-		text-align: center;
-	}
-	a {
-		text-decoration: none;
-		color: inherit;
-		font-size: 200%;
-	}
-	p {
-		font-size: 125%
-	}
-}
-#aboutPic {
-	border-style: solid;
-	border-width: 5px;
-	border-color: white;
 }
 .button {
 	background-color: #4CAF50;
@@ -204,7 +135,7 @@ a {
 	display: block;
 }
 .dropdown-content a:hover {
-	background-color: #ccc;
+	background-color: #ccc; /*a lighter grey*/
 }
 .show {
 	display: block;
@@ -231,4 +162,75 @@ a {
 .form .button {
 	margin-bottom: 0;
 	border-radius: 0 0 0 0;
+}
+/*phone viewport*/
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 75%;
+	}
+	h3 {
+		font-size: 50%;
+	}
+	#titular {
+		font-size: 300%;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		font-size: 100%;
+	}
+	div {
+		font-size: 50%;
+	}
+	.linkCell {
+		border: 1px solid black;
+		border-top: 0px;
+		border-bottom: 0px;
+		text-align: center;
+		vertical-align: text-top;
+		flex-basis: 100%;
+		font-size: 250%;
+		color: white;
+		background-color: DarkGrey;
+		padding: 0px;
+	}
+	#image1 {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	#imageWide {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+	}
+}
+/*tablet viewport*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.centeredText {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 100%;
+		color: crimson;
+	}
+	#titular {
+		font-size: 250%;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		font-size: 200%;
+	}
+	p {
+		font-size: 125%
+	}
+}
+#aboutPic {
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
 }
