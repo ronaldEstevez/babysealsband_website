@@ -12,7 +12,7 @@ function changeShadow() {
   if (counter >= shadowClasses.length) {
     counter = 0;
   }
-}
+};
 
 // function makes seals "dance"
 var instR1 = setInterval(rotation1, 750);
@@ -29,7 +29,7 @@ function rotation1() {
   if (counterR >= rotClasses.length) {
     counterR = 1;
   }
-}
+};
 
 function rotation2() {
   var rotClasses = ["rotate1", "rotateRight", "rotateLeft"];
@@ -40,7 +40,7 @@ function rotation2() {
   if (counterR >= rotClasses.length) {
     counterR = 1;
   }
-}
+};
 
 // drops drop down menu for tour dates
 function showDropDownMenu() {
@@ -58,4 +58,4 @@ function showDropDownMenu() {
       }
     }
   }
-}
+};
